@@ -1,0 +1,33 @@
+- Several algorithms for healthcare existed before but those were never utilized in hospitals. Because of lack of data, manual efforts to create data, algorithms not robust - couldn’t work in different location (because of lack of standardization)
+- Now - Increase in Electronic Health Records + computing power + standadization of health records(diagnosis codes - ICD-9 or ICD-10 and laboratory codes - LOINC and National Drug Codes and Unified Medical Language System(UMLS))+ more public medical datasets (Roger Mark, MIT) + breakthroughs in Machine Learning. Now all data can be converted to one single format and ML models can be applied.
+- We still have very less labeled data so semi supervised learning algorithms are important
+- Why unique
+    - Life and death situation
+    - Small labeled data (algo can use electronic phenotyping)
+    - small number of samples in some cases (eg. rare cases)
+    - large amount of missing data (such as lab records present when tests done but other things like glucose level may be missing)
+    - censored data
+    - data is sensitive - need to remove private data; data sharing agreement takes time
+    - Deploying ML model is difficult in existing hospital systems
+- Some applications discussed:
+    - Risk stratification - who might need to get admitted into hospital in next 30 days ?etc.
+    - discoveries - such as discovering disease subtypes; drug discovery
+    - diagnosis
+    - precision medicine
+    - showing plans to doctor when patient arrives in ICU/emergency
+    
+
+Terms to study: 
+
+---
+
+- Electronic Phenotyping
+- Risk Stratification
+- Censored data
+
+Subjects to study:
+
+---
+
+- Causal inference for treatment strategies
+- Reinforcement Learning for learning treatment policies
